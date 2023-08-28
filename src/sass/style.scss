@@ -1,0 +1,14 @@
+@forward "./components";
+@forward "./layout";
+@forward "./pages";
+
+@use "./abstracts/colors";
+
+body {
+  background-color: colors.$bg-color;
+  margin: 0 auto;
+}
+
+#root {
+  min-height: 100vh;
+}
